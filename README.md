@@ -62,7 +62,4 @@ If you'd like to change the theme's HTML layout:
 4. Paste the default layout content copied in the first step
 5. Customize the layout as you'd like
 
-### Customizing Google Analytics code
-
-Google has released several iterations to their Google Analytics code over the years since this theme was
 
