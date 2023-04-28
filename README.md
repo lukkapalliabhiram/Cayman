@@ -2,11 +2,9 @@
 
 QuickCalc is a contemporary and easy-to-use calculator tool 🔧 that offers a sleek and user-friendly experience 👌, with ads strategically positioned to ensure minimal impact on user experience 📱.
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/meridian/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/meridian/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-meridian.svg)](https://badge.fury.io/rb/jekyll-theme-meridian)
 
 *Meridian is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/meridian), or even [use it today](#usage).*
 
-![Thumbnail of Meridian](thumbnail.png)
 
 ## Usage
 
