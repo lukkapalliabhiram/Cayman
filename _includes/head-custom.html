@@ -1,0 +1,34 @@
+<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+{% include head-custom-google-analytics.html %}
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
+<script>
+  function calculateSalary() {
+    let currentSalary = document.getElementById("current-salary").value;
+    let percentageHike = document.getElementById("percentage-hike").value;
+    let hikeAmount = currentSalary * (percentageHike / 100);
+    let newSalary = Number(currentSalary) + Number(hikeAmount);
+    const currentSalaryRange = document.getElementById('current-salary-range');
+    const currentSalaryInput = document.getElementById('current-salary');
+    currentSalaryRange.addEventListener('input', () => {
+  currentSalaryInput.value = currentSalaryRange.value;
+});
+
+currentSalaryInput.addEventListener('input', () => {
+  currentSalaryRange.value = currentSalaryInput.value;
+});
+
+    document.getElementsByClassName("stat-value")[0].innerHTML = "$" + currentSalary;
+    document.getElementsByClassName("stat-value")[1].innerHTML = percentageHike + "%";
+    document.getElementsByClassName("stat-value")[2].innerHTML = "$" + hikeAmount.toFixed(2);
+    document.getElementsByClassName("stat-value")[3].innerHTML = "$" + newSalary.toFixed(2);
+  }
+
+
+  </script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1291242080282540"
+crossorigin="anonymous"></script>
+<!-- end custom head snippets -->
