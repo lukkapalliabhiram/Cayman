@@ -33,7 +33,7 @@ Meridian will respect the following variables, if set in your site's `_config.ym
 ```yml
 title: [The title of your site]
 description: [A brief description of your site's purpose]
-
+```
 
 
 ### Stylesheet
