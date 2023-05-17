@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name          = "jekyll-theme-cayman"
   s.version       = "0.2.0"
   s.license       = "CC0-1.0"
-  s.authors       = ["Jason Long", "GitHub, Inc."]
+  s.authors       = ["Abhiram Kukkapalli", "GitHub, Inc."]
   s.email         = ["opensource+jekyll-theme-cayman@github.com"]
   s.homepage      = "https://github.com/pages-themes/cayman"
   s.summary       = "Cayman is a Jekyll theme for GitHub Pages"
